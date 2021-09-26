@@ -1,0 +1,212 @@
+.Todo{
+    background-color: #fff;
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.box-shadow-todo{
+    box-shadow: 0 0 5px rgb(54, 54, 54);
+}
+
+.box-layers-todo{
+    box-shadow:
+        0 1px 1px rgba(0,0,0,0.15), /* The top layer shadow */
+        0 10px 0 -5px #eee, /* The second layer */
+        0 10px 1px -4px rgba(0,0,0,0.15), /* The second layer shadow */
+        0 20px 0 -10px #eee, /* The third layer */
+        0 20px 1px -9px rgba(0,0,0,0.15); /* The third layer shadow */
+}
+
+.input-block{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    border-top: 1px solid rgb(202, 202, 202);
+    padding: 10px;
+    position: relative;
+    
+    
+}
+
+.round-checkbox {
+    float:left; 
+    width:5%;
+    margin: 5px;
+ 
+}
+
+.round-checkbox input{
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid rgb(173, 173, 173);
+    -webkit-appearance: none;
+    outline: none;
+    
+}
+
+.round-checkbox input[type="checkbox"]:checked {
+    border: 1px solid rgb(96, 202, 158);
+    background-image: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%22-10%20-18%20100%20135%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22none%22%20stroke%3D%22%23bddad5%22%20stroke-width%3D%223%22/%3E%3Cpath%20fill%3D%22%235dc2af%22%20d%3D%22M72%2025L42%2071%2027%2056l-4%204%2020%2020%2034-52z%22/%3E%3C/svg%3E');
+    background-size: 38px;
+    background-position-x: 58%;
+    background-position-y: 58%;
+    background-repeat: no-repeat;
+}
+
+.edit-task-submit input{
+    
+    font-size: 20px;
+    font-style: normal;
+	color: rgb(43, 43, 43);
+    width: 360px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+}
+
+.edit-task-submit input::placeholder{
+    color: grey;
+    font-style: italic bold;
+    opacity: 0.6;
+}
+
+.edit-task-submit input[type=text]:focus {
+    outline:auto grey;
+    box-shadow: 0 0 5px rgb(54, 54, 54);
+  }
+
+.task-title{
+    float:left; 
+    width:80%;
+    font-size: 20px;
+    word-wrap:break-word;
+    padding-top: 5px;
+    
+    
+}
+
+.task-title-checked{
+    float:left; 
+    width:80%;
+    font-size: 20px;
+    word-wrap:break-word;
+    padding-top: 5px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.remove-button{
+    width:5%;
+    margin: 5px;
+}
+
+.btn {
+    background: transparent;
+    border: none;
+}
+
+.close {
+    color: rgba(207, 45, 45, 0.15);
+    font-size: 20px;
+    position: absolute;
+    
+}
+
+.close:hover{ 
+    color: rgba(134, 0, 0, 0.884);
+    font-size: 20px;
+}
+
+.top-block{
+padding:15px;
+display:flex;
+justify-content: flex-start;
+
+}
+
+.display-tasks{
+}
+
+.check-task{
+    display: flex;
+    justify-content: center;
+}
+
+.complete-btn{
+    opacity: 0.5;
+}
+  
+
+
+.bottom-block{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgb(202, 202, 202);
+    
+
+
+}
+
+.left{
+    float: left;
+    width: 25%;
+}
+
+.middle{
+    float: left;
+    width: 50%;
+    
+}
+
+.right{
+    width:25%;
+}
+
+.block{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+
+}
+  
+.task-btn { 
+    color: black; 
+    margin: auto;
+
+}
+
+
+.task-btn:active{
+    border: 1px solid rgba(175, 47, 47, 0.15);
+    border-radius: 5px ;
+    
+}
+
+.active-btn{
+    border: 1px solid rgba(199, 49, 49, 0.15);
+    border-radius: 5px ;
+}
+  
+.task-btn:hover {
+    border: 1px solid rgba(175, 47, 47, 0.15);
+    color: black;
+    border-radius: 5px ;
+    cursor: pointer;
+    
+    
+}
+
+.clear-btn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+
+

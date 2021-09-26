@@ -1,0 +1,19 @@
+.new-task-submit input{
+    font-size: 1.6em;
+    font-style: normal;
+	color: rgb(43, 43, 43);
+    width: 430px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.new-task-submit input::placeholder{
+    color: grey;
+    font-style: italic bold;
+    opacity: 0.6;
+}
+
+.new-task-submit input[type=text]:focus {
+    outline: none;
+  }
